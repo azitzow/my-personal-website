@@ -1,9 +1,26 @@
+/*
+  ========================================
+  Custom styles Home Page
+  ========================================
+*/
+
 body {
   background-color: #293f50;
+  color: #888;
+  font: 300 16px/22px;
+  min-height: 100vh;
+  margin: 0;
 }
+
+/*
+  ========================================
+  Primary headers
+  ========================================
+*/
 
 h1, h2, h3, h4, title {
   color: #648880;
+  margin-bottom: 22px;
 }
 
 h1 {
@@ -17,13 +34,43 @@ h1 {
   display: block;
 }
 
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: center;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+/*
+  ========================================
+  photos/images
+  ========================================
+*/
+
 img.home-page {
   height: 500px;
   width: 350px;
+}
+img.puppy-page {
+  height: 650px;
+  width: 700px;
+}
+
+img.hobbies-page, .home-page {
   background: #eaeaed;
   border: 1px solid #9799a7;
+  float: center;
   border-radius: 5px;
   margin: 8px 0 0 20px;
   padding: 4px;
   max-width: 100%
+}
+
+p {
+  font-size: 25px;
 }
