@@ -1,3 +1,29 @@
 body {
-  background: blue;
+  background-color: #293f50;
+}
+
+h1, h2, h3, h4, title {
+  color: #648880;
+}
+
+h1 {
+  float: center;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 40px 0;
+  text-transform: uppercase;
+  display: block;
+}
+
+img.home-page {
+  height: 500px;
+  width: 350px;
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  border-radius: 5px;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+  max-width: 100%
 }
