@@ -7,11 +7,14 @@
 body {
   background-color: #293f50;
   color: #888;
-  font: 300 16px/22px;
   min-height: 100vh;
   margin: 0;
 }
 
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
 /*
   ========================================
   Primary headers
@@ -20,30 +23,45 @@ body {
 
 h1, h2, h3, h4, title {
   color: #648880;
-  margin-bottom: 22px;
 }
 
-h1 {
-  float: center;
-  font-size: 48px;
-  font-weight: 100;
-  letter-spacing: .5px;
-  line-height: 44px;
-  padding: 40px 0 40px 0;
-  text-transform: uppercase;
-  display: block;
+header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.left-column {
+  width: 360px;
+  float: left;
+}
+
+.right-column {
+  width: 840px;
+  float: left;
 }
 
 .tagline {
-  margin: 66px 0 22px 0;
-  text-align: center;
+  text-align: right;
 }
 
 .primary-nav {
+  text-align: right;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
+}
+
+.logo {
+  float: left;
 }
 
 /*
@@ -53,8 +71,8 @@ h1 {
 */
 
 img.home-page {
-  height: 500px;
-  width: 350px;
+  width: 300px;
+  margin-top: 19.2px;
 }
 img.puppy-page {
   height: 650px;
@@ -64,12 +82,16 @@ img.puppy-page {
 img.hobbies-page, .home-page {
   background: #eaeaed;
   border: 1px solid #9799a7;
-  float: center;
   border-radius: 5px;
-  margin: 8px 0 0 20px;
-  padding: 4px;
-  max-width: 100%
 }
+
+/*
+  ========================================
+  Body
+  ========================================
+*/
+
+
 
 p {
   font-size: 25px;
