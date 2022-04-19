@@ -15,6 +15,25 @@ section {
   width: 1200px;
   margin: 0 auto;
 }
+
+p {
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+.not-ul {
+  list-style: none;
+}
+a:hover {
+  /* color: #a9b2b9; */
+  color:aqua;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
 /*
   ========================================
   Primary headers
@@ -28,14 +47,6 @@ h1, h2, h3, h4, title {
 header {
   width: 1200px;
   margin: 0 auto;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
 }
 
 .left-column {
@@ -62,6 +73,7 @@ li {
 
 .logo {
   float: left;
+  color: #fff;
 }
 
 /*
@@ -70,29 +82,18 @@ li {
   ========================================
 */
 
-img.home-page {
+img.home {
   width: 300px;
   margin-top: 19.2px;
 }
-img.puppy-page {
-  height: 650px;
+img.puppy {
+  height: 550px;
   width: 700px;
 }
 
-img.hobbies-page, .home-page {
+img.hobbies, .home {
   background: #eaeaed;
   border: 1px solid #9799a7;
   border-radius: 5px;
 }
 
-/*
-  ========================================
-  Body
-  ========================================
-*/
-
-
-
-p {
-  font-size: 25px;
-}
