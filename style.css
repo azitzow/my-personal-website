@@ -16,18 +16,14 @@ section {
   margin: 0 auto;
 }
 
-p {
+p, li {
   font-size: 25px;
 }
 
-li {
-  font-size: 25px;
-}
 .not-ul {
   list-style: none;
 }
 a:hover {
-  /* color: #a9b2b9; */
   color:aqua;
 }
 a {
